@@ -1,0 +1,45 @@
+{
+  "name": "hackfest2k23",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "jquery": "^3.6.4",
+    "js-cookie": "^3.0.1",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.11",
+    "react-router-dom": "^6.9.0",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-smooth-scrolling": "^1.0.2",
+    "reactstrap": "^9.1.6",
+    "rodal": "^2.0.1",
+    "three": "^0.150.1",
+    "typescript": "4.9.5",
+    "typewriter-effect": "^2.19.0",
+    "vanta": "^0.5.24"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.16",
+    "@types/js-cookie": "^3.0.3",
+    "@types/three": "^0.149.0"
+  }
+}

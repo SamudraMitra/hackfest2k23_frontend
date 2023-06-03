@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos');
+
+.main {
+  padding: 10rem 0;
+  width: 100%;
+  height: 100vh;
+  color: #fafafa;
+  /* width: 120% */
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /* font-family: 'Genos'; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100%;
+  font-family: 'Genos';
+  padding: 0 0 0 90px;
+}
+.ttl {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  
+}
+.subttl {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .ttl {
+    font-size: 5rem;
+  }
+  .subttl {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 0 0 0 30px;
+  }
+}
